@@ -1,9 +1,10 @@
 import os
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
 import requests
 import pandas as pd
 
-load_dotenv('../.env')
+# Removed load dotenv from lambda
+# load_dotenv('../../.env')
 
 # Fetch API KEY from environment variables
 FRED_API_KEY = os.getenv('FRED_API_KEY')
