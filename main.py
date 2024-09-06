@@ -17,13 +17,11 @@ if __name__ == "__main__":
 
     data_dir = Path('data')
 
+    # Create a Path object for the 'data' directory and ensure it exists
     data_dir.mkdir(exist_ok=True)
 
     local_file = data_dir / f'{series_id}.csv'
 
-    # Make dir data if it doesn't exist
-    if not os.path.exists('data'):
-        os.makedirs('data')
 
     # Save data locally
     data.to_csv(local_file, index=False)
