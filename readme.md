@@ -4,27 +4,27 @@ This project is a fully automated financial data pipeline that fetches data from
 
  ## Project Architecture
  
-**FRED API:** Fetches financial data (e.g., GDP) from the FRED API.
-**AWS Lambda:** A serverless function that runs the pipeline to fetch and process data.
-**Amazon S3:** Stores the fetched financial data as CSV files.
-**Amazon EventBridge:** Automates the pipeline execution by triggering the Lambda function on a schedule.
-**CloudWatch:** Monitors the Lambda function and triggers alerts in case of failures.
-**Amazon QuickSight:** Visualizes the data stored in S3 and automatically updates the dashboard with fresh data.
+**FRED API:** Fetches financial data (e.g., GDP) from the FRED API. <br/>
+**AWS Lambda:** A serverless function that runs the pipeline to fetch and process data. <br/>
+**Amazon S3:** Stores the fetched financial data as CSV files. <br/>
+**Amazon EventBridge:** Automates the pipeline execution by triggering the Lambda function on a schedule. <br/>
+**CloudWatch:** Monitors the Lambda function and triggers alerts in case of failures. <br/>
+**Amazon QuickSight:** Visualizes the data stored in S3 and automatically updates the dashboard with fresh data. <br/>
 
 
 
 ## Features
 
-**Automated Fetching:** Data is fetched regularly via EventBridge automation.
-**Serverless Architecture:** Utilizes AWS Lambda to process data without provisioning servers.
-**Error Monitoring:** CloudWatch alarms notify on errors or failed executions.
-**Data Storage:** Data is stored in S3 for long-term storage and easy access.
+**Automated Fetching:** Data is fetched regularly via EventBridge automation. <br/>
+**Serverless Architecture:** Utilizes AWS Lambda to process data without provisioning servers. <br/>
+**Error Monitoring:** CloudWatch alarms notify on errors or failed executions. <br/>
+**Data Storage:** Data is stored in S3 for long-term storage and easy access. <br >
 **Dashboarding:** The data is visualized in Amazon QuickSight, automatically updated with the new data.
 ![Screenshot 2024-09-07 133200](https://github.com/user-attachments/assets/396a4238-bab6-4a6f-85f3-cd49c7bfcdc8)
 
 ## Getting Started
 ### Prerequisites
-AWS account with access to Lambda, S3, EventBridge, CloudWatch, and QuickSight.
+AWS account with access to Lambda, S3, EventBridge, CloudWatch, and QuickSight. <br />
 FRED API key from the Federal Reserve.
 
 ## Setup
