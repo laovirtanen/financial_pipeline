@@ -6,6 +6,7 @@ This project is a fully automated financial data pipeline that fetches data from
  
 **FRED API:** Fetches financial data (e.g., GDP) from the FRED API. <br/>
 **AWS Lambda:** A serverless function that runs the pipeline to fetch and process data. <br/>
+**Lambda Layer**: https://github.com/keithrozario/Klayers repo used for layer adaption.
 **Amazon S3:** Stores the fetched financial data as CSV files. <br/>
 **Amazon EventBridge:** Automates the pipeline execution by triggering the Lambda function on a schedule. <br/>
 **CloudWatch:** Monitors the Lambda function and triggers alerts in case of failures. <br/>
