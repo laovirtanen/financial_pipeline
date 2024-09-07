@@ -32,9 +32,9 @@ FRED API key from the Federal Reserve.
 2. `git clone https://github.com/laovirtanen/financial_pipeline.git`
 3. Set up environment variables:
 
-BUCKET_NAME: Name of the S3 bucket.
-FRED_API_KEY: Your API key from the FRED service.
-SERIES_ID: FRED data series ID (e.g., "GDP").
+BUCKET_NAME: Name of the S3 bucket. <br/>
+FRED_API_KEY: Your API key from the FRED service. <br/>
+SERIES_ID: FRED data series ID (e.g., "GDP"). <br/>
 Deploy the Lambda function via the AWS Console or AWS CLI.
 
 ### Automation
